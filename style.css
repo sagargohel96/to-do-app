@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 53, 121, 1) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+.item {
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.tasks {
+  background-color: aliceblue !important;
+  padding: 20px;
+}
+.child i {
+  margin-right: 2px;
+}
